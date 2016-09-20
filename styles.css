@@ -8,10 +8,10 @@
 	color: black;
 	font-size: 32px;
 	align-self: center;
+	width :100%;
 	vertical-align: middle;
-	text-align: center;
-	position: fixed;
-	right: 30px;
+	text-align: right;
+	border: 5px solid green;
 }
 
 .flextop {
@@ -20,12 +20,19 @@
 }
 
 .flex-container {
-    display: -webkit-flex;
     display: flex;
     width: auto;
 }
 
 .flex-item {
+	float: left;
+}
+
+.form-contact {
+	align-content: center;
+	color: black;
+	vertical-align: middle;
+	border: 5px solid blue;
 }
 
 #header-top-abs {
@@ -48,6 +55,7 @@
 
 #navbar-title {
 	color: blue;
+	border: 5px solid red;
 }
 
 #navbar-title p {
@@ -56,6 +64,7 @@
 
 #logo-container {
 	width: 200px;
+	border: 5px solid blue;
 }
 
 .site-contain {
