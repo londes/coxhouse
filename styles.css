@@ -29,10 +29,9 @@
 }
 
 .form-contact {
-	align-content: center;
 	color: black;
-	vertical-align: middle;
 	border: 5px solid blue;
+  margin: auto;
 }
 
 #header-top-abs {
@@ -92,6 +91,7 @@
 #navbar-title {
 	color: blue;
 	border: 5px solid red;
+  width: 300px;
 }
 
 #navbar-title p {
@@ -161,6 +161,17 @@ div.desc {
     content: "";
     display: table;
     clear: both;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: teal;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
 
 a {
