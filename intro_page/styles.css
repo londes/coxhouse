@@ -1,0 +1,129 @@
+@font-face{
+    font-family: "Vegur-Light";
+    src: url('Vegur-Light.otf');
+}
+
+.intro-page {
+  font-size: 70px;
+  color: black;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+.form-contact {
+	color: black;
+	border: 5px solid blue;
+  display:block;
+  margin:0 auto;
+  width:600px;
+}
+
+.form-contact {
+	display: flex;
+	margin: auto;
+	padding: 5px;
+	border: 5px;
+}
+
+form {
+    margin:0 auto;
+    width:459px;
+}
+
+input, textarea {
+    width:439px;
+    height:27px;
+    background:#efefef;
+    border:1px solid #dedede;
+    padding:10px;
+    margin-top:3px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+textarea {
+	height:150px;
+	background:url(images/textarea-bg.jpg) right no-repeat #efefef;
+}
+
+input:focus, textarea:focus {
+    border:1px solid #97d6eb;
+}
+
+#submit {
+    width:80%;
+    height:38px;
+    border:none;
+    margin-top:20px;
+    cursor:pointer;
+    color: #fff;
+}
+
+#submit:hover {
+	  opacity:.9;
+}
+
+.contact-top {
+	border: 3px solid orange;
+	margin: 5px;
+	padding: 5px;
+}
+
+.contact-middle {
+	border: 3px solid yellow;
+	display: flex;
+}
+
+.contact-email {
+	border: 1px solid orange;
+	margin: 5px;
+	padding: 5px;
+}
+
+.contact-number{
+	border: 1px solid grey;
+	margin: 5px;
+	padding: 5px;
+}
+
+.contact-bottom {
+	border: 3px solid red;
+	margin: 5px;
+	padding: 5px;
+}
+
+.top-image {
+	align-content: center;
+}
+
+.gallery-contain {
+  margin-top: 170px;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: grey;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+label {
+    display:block;
+    margin-top:20px;
+    letter-spacing:2px;
+}
+
+body {
+	font-family: "Vegur-Light";
+	color: black;
+  text-align: center;
+}
