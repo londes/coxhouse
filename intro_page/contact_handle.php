@@ -8,7 +8,7 @@
     $from = 'From: Cox House Lifting Website';
     $to = 'rcox342@gmail.com';
     $subject = 'Contact Submitted via Website';
-    $body = "From: $name\n Number: $phone_number\n E-Mail: $email\n Message:\n $message";
+    $body = "From: $name\n Number: $phone_number\n E-Mail: $email\n\n Message:\n $message";
 
     if ($_POST['submit']) {
       if ($name != '' && $email != '') {
